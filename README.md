@@ -2,7 +2,7 @@
 A USB-based tool to detect connected iPhones, collect device information, and attempt controlled memory writes to analyze security behavior. Includes logging and debugging features for research purposes.
 
 
-Features of the Project
+# Features of the Project
 	1.	Device Detection
 	•	Detect when an iPhone is connected via USB.
 	•	Identify the model, iOS version, and SecureROM version (if possible).
@@ -16,3 +16,8 @@ Features of the Project
 	4.	Logging & Debugging
 	•	Collect detailed logs of all USB communications.
 	•	Detect unusual behavior in the USB stack, like unexpected resets or stalls.
+# Tech stack
+	•	Python (pyusb for USB communication)
+	•	C (for lower-level USB interactions if needed)
+	•	libusb (cross-platform USB library)
+	•	Linux/macOS (Preferred OS for running the tool)
